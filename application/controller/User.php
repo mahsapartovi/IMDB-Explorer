@@ -1,8 +1,9 @@
 <?php
 
 namespace application\controller;
-require 'application/model/Model.php';
 require 'application/model/UserModel.php';
+require 'application/model/Model.php';
+
 
 use application\model\UserModel;
 use PHPMailer\PHPMailer\PHPMailer;
